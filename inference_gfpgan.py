@@ -4,6 +4,7 @@ import glob
 import numpy as np
 import os
 import torch
+from modules import import_hook
 from basicsr.utils import imwrite
 
 from gfpgan import GFPGANer
